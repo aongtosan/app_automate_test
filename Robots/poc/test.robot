@@ -6,6 +6,7 @@ Library  Collections
 
 Resource  ${EXECDIR}/resources/init.resource
 
+
 *** Test Cases ***
 # 1.Open youtube
 #     Open Browser   https://www.youtube.com/  chrome
@@ -13,3 +14,4 @@ Resource  ${EXECDIR}/resources/init.resource
 #     Input Text  //*[@id="search-input"]/input[@id="search"]  unity game engine
 log Test
     log to console  ${WORD}
+    log to console  ${CONFIG_ENV_LIST['${CONFIG_ENV}']}
