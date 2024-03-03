@@ -44,4 +44,3 @@ Get All Element from webpage
     ${text}=  Get Source  
     Create File  ${EXECDIR}/result/scrapped.html  content=${text}  encoding=UTF-8
     # Log To Console  ${text}
-W
