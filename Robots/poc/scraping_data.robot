@@ -30,9 +30,11 @@ Get All Element from webpage
     # Call Method    ${chrome_options}    add_argument    --ignore-certificate-errors
     # Call Method    ${chrome_options}    add_argument    --disable-features=UseOzonePlatform
     # Call Method    ${chrome_options}    add_argument    --disable-features=NetworkService
-
+    Call Method    ${chrome_options}    add_experimental_option    detach    ${True}
     # Call Method    ${chrome_options}    add_argument    --binary=${EXECDIR}/WebBinary/win64/chrome/chrome.exe
+    # Set To Dictionary    ${chrome_options}    detach=True
     ${CHROME_LOCATION}  Normalize path  ${EXECDIR}\\WebBinary\\win64\\chrome\\chrome.exe
+    Log To Console  ${CHROME_LOCATION}
 
     ${chrome_options.binary_location}  Set Variable    ${CHROME_LOCATION}
     Open Browser   
