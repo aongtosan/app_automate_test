@@ -1,1 +1,4 @@
-**/result
+**/results
+**/WebBinary
+**/WebDriver
+/.vscode
