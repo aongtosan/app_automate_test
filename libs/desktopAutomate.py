@@ -1,13 +1,9 @@
-import pywinauto
+# import pywinauto
 from robot.api.deco import keyword
-from pywinauto import application as pwa
+# from pywinauto import application as pwa
 
 
 class desktopAutomate:
-    def __init__(self):
-        self.app = None
-        self.dlg = None
-
-    @keyword("Test")
-    def test():
-        print("test")
+    @keyword("Test Custom Library")
+    def test_custom_libs(self):
+        return ("test access custom libs")
