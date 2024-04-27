@@ -1,4 +1,4 @@
 ***Settings***
 Variables  config.yaml
-Resource  ../keyword/init.resoure
-Resource  ../locator/init.resoure
+Resource  ../keyword/init.resource
+Resource  ../locator/init.resource
