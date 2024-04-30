@@ -2,4 +2,4 @@
 **/WebBinary
 **/WebDriver
 /.vscode
-/libs/__pycache__/
+/libs/**/__pycache__/

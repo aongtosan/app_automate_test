@@ -1,5 +1,5 @@
 *** Settings ***
-Library   ${EXECDIR}/libs/desktopAutomate.py
+Library   common.desktopAutomate
 
 *** Test Cases ***
 Test Application

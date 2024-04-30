@@ -20,8 +20,9 @@ class desktopAutomate:
 
     @keyword("Start Application")
     def start_application(self) :
-        Application(backend='uia').start('..\\app_automate_test\\WebBinary\\win64\\chrome\\chrome.exe --force-renderer-accessibility')
-    
+        app = Application(backend='uia').start('..\\app_automate_test\\WebBinary\\win64\\chrome\\chrome.exe --force-renderer-accessibility')
+
+
     @keyword("Start Popup CMD")
     def start_popup_cmd(self):
         app = Application(backend='uia').start("cmd.exe")
