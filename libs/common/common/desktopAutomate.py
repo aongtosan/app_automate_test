@@ -18,7 +18,7 @@ class desktopAutomate:
     def execute_command(self, app_dialog, command):
         app_dialog.type_keys(command + "{ENTER}")
 
-    @keyword("Start Application")
+    @keyword("Start Application Chrome")
     def start_application(self) :
         app = Application(backend='uia').start('..\\app_automate_test\\WebBinary\\win64\\chrome\\chrome.exe --force-renderer-accessibility')
 
