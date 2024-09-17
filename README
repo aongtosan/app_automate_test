@@ -1,10 +1,10 @@
- ----- Install Prerequisite ----- 
+----- Install Prerequisite ----- 
  install python
- ---install pip
+---install pip
 
 
- ----- Manaul ------
-run and specific path report output
+----- Manaul ------
+ run and specific path report output
 ----- python -m robot --outputdir "results" .\Robots\poc\window_app_test.robot
-run and specific path report output
+ run and specific path report output
 ----- python -m robot --outputdir "results" -P ".\libs\*"  .\Robots\poc\window_app_test.robot
