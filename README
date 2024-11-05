@@ -3,7 +3,7 @@
 ---install pip
 
 
------ Manaul ------
+----- Manual ------
  run and specific path report output
 ----- python -m robot --outputdir "results" .\Robots\poc\window_app_test.robot
  run and specific path report output
