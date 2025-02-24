@@ -3,3 +3,5 @@
 **/WebDriver
 /.vscode
 /libs/**/__pycache__/
+/results
+/result
