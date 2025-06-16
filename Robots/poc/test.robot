@@ -13,5 +13,7 @@ Resource  ${EXECDIR}/resources/init.resource
 # 2.Search Unity Game Engine
 #     Input Text  //*[@id="search-input"]/input[@id="search"]  unity game engine
 log Test
+    ${result}=  Evaluate  '${EMPTY}' + " "
     log to console  ${WORD}
     log to console  ${CONFIG_ENV_LIST['${CONFIG_ENV}']}
+    log to console  ${result}
