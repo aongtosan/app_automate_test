@@ -1,5 +1,6 @@
 *** Settings ***
 Library   common.desktopAutomate
+Library    Process
 
 *** Test Cases ***
 Test Application
