@@ -4,8 +4,20 @@ from robot import run
 import tkinter as tk
 
 def on_button_click():
+    test_file_path = "Robots/poc/window_app_test.robot"
+
+# Output directory and other options
+    output_dir = "results"
+    library_path = ".\\libs\\*"
     # Run the .robot test file
-    run(".\\Robots\\poc\\rest_api_test.robot")
+    run(
+        test_file_path,
+        outputdir=output_dir,
+        pythonpath=library_path,
+        report="report.html",
+        log="log.html",
+        output="output.xml"
+    )
     print("RUN COMPLETE")
 
 # Create the main window
